@@ -24,6 +24,9 @@ h4 {
 p {
   margin: 0px;
 }
+.container {
+  width: 1158px;
+}
 :root {
   --iris: #4d5ae5;
   --ocean: #404bbf;
@@ -35,6 +38,8 @@ p {
   --cloud: #f4f4fd;
   --white: #fff;
   --grey: #2e2f42;
+}
+.header {
 }
 .logo {
   color: var(--navyblue);
@@ -49,6 +54,9 @@ p {
 .logo-span {
   color: var(--iris);
 }
+.navigation {
+  display: flex;
+}
 .navigation a {
   font-size: 16px;
   color: var(--navyblue);
@@ -59,6 +67,9 @@ p {
 .navigation a:hover,
 .navigation a:focus {
   color: var(--ocean);
+}
+.header-contact {
+  display: flex;
 }
 .header-contact a {
   color: var(--slate);
@@ -129,12 +140,18 @@ p {
 
   color: var(--white);
 }
+.company-desc {
+  display: flex;
+}
 .header-three {
   font-size: 20px;
 
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+}
+.doing {
+  display: flex;
 }
 .desc {
   color: var(--slate);
@@ -151,6 +168,9 @@ p {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+.team {
+  display: flex;
 }
 .team-background {
   background: var(--cloud);
@@ -175,4 +195,13 @@ p {
   line-height: 1.16;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+.buttons {
+  display: flex;
+}
+.portfolio {
+  display: flex;
+}
+.section {
+  padding: 120px 0;
 }
