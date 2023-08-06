@@ -57,6 +57,10 @@ button {
   --white: #fff;
   --grey: #2e2f42;
 }
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .header {
   border-bottom: 1px solid var(--cornflower);
   padding: 24px 0;
@@ -115,9 +119,10 @@ nav {
   line-height: 1.07;
   letter-spacing: 1.12px;
   text-align: center;
-  margin-bottom: 48px;
+
   max-width: 496px;
   margin: 0 auto;
+  margin-bottom: 48px;
 }
 .index-button {
   border-radius: 4px;
@@ -209,6 +214,7 @@ nav {
 }
 .footer {
   background: var(--navyblue);
+  padding: 100px 0;
 }
 .desc-footer {
   color: var(--cloud);
@@ -233,18 +239,14 @@ nav {
   display: flex;
   gap: 24px;
   justify-content: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .portfolio {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
-  padding-inline-start: 0px;
+  gap: 48px 24px;
 }
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+
 .header-wrapper {
   display: flex;
 }
@@ -268,11 +270,13 @@ nav {
 
 .container-footer {
   width: 264px;
-  padding-bottom: 100px;
-  padding-top: 101.5px;
 }
 .portfolio > li > div {
   border: 1px solid var(--cornflower);
-  text-align: center;
-  padding: 32px;
+  padding: 32px 16px;
+  border-top: none;
+}
+.section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
